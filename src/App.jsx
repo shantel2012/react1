@@ -3,7 +3,6 @@ import Card from "./Components/Card";
 import ParadiseImg from "./assets/Paradise.jpg"; 
 import MountainImg from "./assets/Mountain.jpg"; 
 import SafariImg from "./assets/Safari.jpg"; 
-import "./App.css";
 
 function App() {
   return (
