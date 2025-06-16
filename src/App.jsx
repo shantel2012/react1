@@ -29,7 +29,7 @@ function App() {
       />
         
       <Card
-      title="Mountain Escape"
+      title="Mountain Escape."
       location="Switzerland"
       imageUrl="https://upload.wikimedia.org/wikipedia/commons/6/65/Zermatt_matterhorn.jpg"
       startDate="July 5, 2025"
