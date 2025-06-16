@@ -1,6 +1,6 @@
 import React from 'react';
 import ParadiseImg from '../assets/Paradise.jpg';
-import "./App.css";
+
 
 function Card(props) {
   return (

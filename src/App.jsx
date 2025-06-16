@@ -1,6 +1,8 @@
 import React from "react";
 import Card from "./Components/Card";   
 import ParadiseImg from "./assets/Paradise.jpg"; 
+import MountainImg from "./assets/Mountain.jpg"; 
+import SafariImg from "./assets/Safari.jpg"; 
 import "./App.css";
 
 function App() {
@@ -21,7 +23,7 @@ function App() {
       <Card
         title="Safari Adventure"
         location="Kenya"
-        imageUrl="https://upload.wikimedia.org/wikipedia/commons/9/9f/African_Bush_Elephant.jpg"
+        imageUrl={SafariImg}
         startDate="July 15, 2025"
         endDate="July 25, 2025"
         description="Experience wildlife up close in the beautiful national parks of Kenya."
@@ -31,11 +33,21 @@ function App() {
       <Card
       title="Mountain Escape."
       location="Switzerland"
-      imageUrl="https://upload.wikimedia.org/wikipedia/commons/6/65/Zermatt_matterhorn.jpg"
+      imageUrl={MountainImg}
       startDate="July 5, 2025"
       endDate="July 15, 2025"
       description="Breathe the fresh mountain air and explore the beautiful Swiss Alps in Zermatt."
-  googleMapsUrl="https://maps.google.com/?q=Zermatt,Switzerland"
+      googleMapsUrl="https://maps.google.com/?q=Zermatt,Switzerland"
+/>
+
+<Card
+      title="Mountain Escape."
+      location="Switzerland"
+      imageUrl={MountainImg}
+      startDate="July 5, 2025"
+      endDate="July 15, 2025"
+      description="Breathe the fresh mountain air and explore the beautiful Swiss Alps in Zermatt."
+      googleMapsUrl="https://maps.google.com/?q=Zermatt,Switzerland"
 />
       
     </div>
